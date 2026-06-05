@@ -1,0 +1,45 @@
+Main Code WITH COMMENT
+MVI C, 00             ; Initialize register C with 00
+LXI H, 8500           ; Load HL with memory address 8500
+
+LOOP2:
+    LXI D, 8600       ; Load DE with memory address 8600
+
+    ; Call subroutine MUL
+    CALL MUL
+
+    MOV B, A          ; Move the content of A to B
+    INX H             ; Increment HL
+    INX D             ; Increment DE
+    INX D             ; Increment DE
+
+    ; Call subroutine MUL
+    CALL MUL
+
+    ADD B             ; Add B to A
+    CALL STORE        ; Call subroutine STORE
+
+    DCX H             ; Decrement HL
+    DCX D             ; Decrement DE
+
+    ; Call subroutine MUL
+    CALL MUL
+MOV B, A          ; Move the content of A to B
+    INX H             ; Increment HL
+    INX D             ; Increment DE
+    INX D             ; Increment DE 
+
+    ADD B             ; Add B to A
+    CALL STORE        ; Call subroutine STORE
+
+    MOV A, C          ; Move the content of C to A
+    CPI 04            ; Compare A with immediate value 04
+
+    ; Jump to LOOP1 if A is equal to 4
+    JZ LOOP1
+
+    INX H             ; Increment HL
+    JMP LOOP2         ; Jump to LOOP2
+
+LOOP1:
+    HLT                ; Halt the microprocessor
