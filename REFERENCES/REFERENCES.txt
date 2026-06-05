@@ -1,0 +1,8 @@
+REFERENCES
+1.	         "Microprocessor Architecture, Programming, and Applications with the 8085" by Ramesh S. Gaonkar (2008)
+2.	"The 8085 Microprocessor: Programming and Interfacing" by A. K. Ray (2005)
+3.	"Programming and Interfacing the 8086/8088 Microprocessor: A Comprehensive Introduction" by Walter A. Triebel and Avtar Singh (2003)
+4.	"The Art of Assembly Language" by Randall Hyde (2010)
+5.	"Introduction to the Intel Family of Microprocessors: A Hands-On Approach" by James L. Antonakos (2006)
+6.	"Microprocessor and Microcontroller Fundamentals: The 8085 and 8051 Hardware and Software" by William Kleitz (2008)
+7.	"Assembly Language Programming for the IBM PC" by Kip R. Irvine (2006)
