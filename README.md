@@ -2,8 +2,7 @@
 
 ## Team Members
 - Roshan Kumar Mishra (RA2211003012079)
-- Aayush Neupane (RA2211003012078)
-- Manish Mahasetha (RA2211003012083)
+
 
 ## Project Overview
 Implementation of matrix multiplication using Intel 8085 Assembly Language.
