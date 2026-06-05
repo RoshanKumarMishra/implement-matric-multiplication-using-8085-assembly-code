@@ -1,8 +1,5 @@
 # Matrix Multiplication Using 8085 Assembly Language
 
-## Team Members
-- Roshan Kumar Mishra (RA2211003012079)
-
 
 ## Project Overview
 Implementation of matrix multiplication using Intel 8085 Assembly Language.
