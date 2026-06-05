@@ -1,2 +1,20 @@
-# implement-matric-multiplication-using-8085-assembly-code
-8085 Assembly Language program for matrix multiplication of two matrices using memory-based data storage and arithmetic operations.
+# Matrix Multiplication Using 8085 Assembly Language
+
+## Team Members
+- Roshan Kumar Mishra (RA2211003012079)
+- Aayush Neupane (RA2211003012078)
+- Manish Mahasetha (RA2211003012083)
+
+## Project Overview
+Implementation of matrix multiplication using Intel 8085 Assembly Language.
+
+## Project Figures
+See images folder for:
+1. 8085 Block Diagram
+2. Matrix Multiplication Block Diagram
+3. Multiplication of Two Numbers Flowchart
+4. Row × Column Flowchart
+5. Matrix Multiplication Flowchart
+6. Code Visualization
+7. EMU8086 Result
+8. General Assembly Compiler Result
